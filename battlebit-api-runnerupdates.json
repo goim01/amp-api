@@ -1,23 +1,11 @@
 [
     {
-        "UpdateStageName": "Downloading API Runner.",
+        "UpdateStageName": "Download and Extract API Runner.",
         "UpdateSourcePlatform": "Windows",
-        "UpdateSource": "GithubRelease",
-        "UpdateSourceData": "1.2.0.zip",
-        "UpdateSourceArgs": "BattleBit-Community-Servers/BattleBitAPIRunner",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
-    },
-    {
-        "UpdateStageName": "Extracting API Runner.",
-        "UpdateSourcePlatform": "Windows",
-        "UpdateSource": "ExtractArchive",
-        "UpdateSourceArgs": "./1.2.0.zip",
-        "UpdateSourceTarget": "./",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://github.com/BattleBit-Community-Servers/BattleBitAPIRunner/releases/download/1.2.0/1.2.0.zip",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "OneShot": false
     }
