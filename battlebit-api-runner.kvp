@@ -1,7 +1,7 @@
 Meta.DisplayName=BattleBit API Runner
 Meta.Description=BBR Modular API Runner
 Meta.Arch=x86_64
-Meta.Author=goim01 - Made with AMP Config Generator
+Meta.Author=goim01
 Meta.URL=https://github.com/BattleBit-Community-Servers/BattleBitAPIRunner/
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=
