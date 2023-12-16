@@ -1,0 +1,9 @@
+[
+    {
+        "Protocol": "TCP",
+        "Port": "29594",
+        "Name": "Main Game Port",
+        "Description": "Port used for main game traffic",
+        "Ref": "MainGamePort"
+    }
+]
